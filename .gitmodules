@@ -1,0 +1,3 @@
+[submodule "Circuits"]
+	path = Circuits
+	url = https://github.com/FunnPunn/RecRoom-Circuits.git
