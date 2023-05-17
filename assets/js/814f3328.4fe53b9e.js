@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcircuits=self.webpackChunkcircuits||[]).push([[52535],{45641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Website creation!","permalink":"/blog/website-creation"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcircuits=self.webpackChunkcircuits||[]).push([[10920],{63908:e=>{e.exports=JSON.parse('{"label":"Guide","permalink":"/docs/tags/guide","allTagsPath":"/docs/tags","count":1,"items":[{"id":"guides/Placeholder","title":"hello","description":"if I remove this file the thing doesn\'t want to build","permalink":"/docs/guides/Placeholder"}]}')}}]);
