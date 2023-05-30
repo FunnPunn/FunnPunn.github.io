@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcircuits=self.webpackChunkcircuits||[]).push([[10920],{63908:s=>{s.exports=JSON.parse('{"label":"Guide","permalink":"/docs/tags/guide","allTagsPath":"/docs/tags","count":1,"items":[{"id":"guides/lvl","title":"Making a leveling system!","description":"Coming soon!","permalink":"/docs/guides/lvl"}]}')}}]);
