@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcircuits=self.webpackChunkcircuits||[]).push([[74121],{88070:e=>{e.exports=JSON.parse('[{"label":"Chip","permalink":"/docs/tags/chip","count":651},{"label":"AI","permalink":"/docs/tags/ai","count":1},{"label":"Component","permalink":"/docs/tags/component","count":1},{"label":"Guide","permalink":"/docs/tags/guide","count":1}]')}}]);
