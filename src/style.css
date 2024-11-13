@@ -29,7 +29,12 @@ body {
     pointer-events: none;
 }
 
-svg {
-    width: 40%;
-    height: auto;
+nav {
+    width: 30%;
+
+    svg {
+        width: 100%;
+        height: auto;
+        
+    }
 }
