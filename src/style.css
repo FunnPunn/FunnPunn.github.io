@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #D9D9D9;
+    font-family: sans-serif;
+}
+.bg {
+    fill: #0000;
+}
+.detail {
+    stroke: #0000;
+}
+.button {
+    margin: -20px;
+    &:hover {
+        .bg {
+            fill: #DABAA8;
+        }
+
+        .detail {
+            stroke: red;
+        }
+    }
+}
+
+.passthru {
+    pointer-events: none;
+}
+
+svg {
+    width: 40%;
+    height: auto;
+}
