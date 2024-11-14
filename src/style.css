@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 
-    --bg-color: /*#F6E2D7*/white;
+    --bg-color: #F6E2D7; /*#F6E2D7*/
     --bg-interactive: /*#DABAA8*/white;
 }
 body {
