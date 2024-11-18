@@ -1,20 +1,33 @@
 * {
     margin: 0;
     padding: 0;
+    
 
     --bg-color: #F6E2D7; /*#F6E2D7*/
+    --bg-color-light: #f6eae4;
+    --bg-color-lighter: #fdf4f0;
+    --bg-color-dark: #c19b87;
     --bg-interactive: /*#DABAA8*/white;
 }
+
 body {
+    /*overflow: hidden;*/
     background-color: var(--bg-color);
     font-family: sans-serif;
 }
+
+#wrapper {
+    /*overflow-y: scroll;*/
+}
+
 .bg {
     fill: #0000;
 }
+
 .detail {
     stroke: #0000;
 }
+
 .button {
     margin: -20px;
     &:hover {
@@ -35,7 +48,7 @@ body {
 nav {
     width: 100%;
 
-    background-image: url("ExtendingLine_BG.svg");
+    background-image: url("svg/ExtendingLine_BG.svg");
     background-repeat: repeat-x;
     background-size: 40% auto;
     background-position: 0% 10%;
@@ -50,4 +63,168 @@ nav {
 
 #viewboxWrapper {
     width: 30%;
+}
+
+.imageContainer {
+    img {
+        width: 100%;
+        height: 100%;
+        
+    }
+}
+
+.framedImage {
+    width: 720px;
+    height: 480px;
+    margin: 2em;
+
+    object-fit: contain;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.contributors {
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 1rem;
+}
+
+.person {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center;
+    gap: 1rem;
+    
+    max-width: 100%;
+    padding: 1rem;
+
+    background-color: var(--bg-color-dark);
+    
+    border-radius: 2em;
+    .noborder {
+        border: none;
+    }
+}
+
+.person img {
+    width: 20vw; /* Relative to viewport width */
+    max-width: 128px; /* Maximum size */
+    border: 6px solid var(--bg-color-light);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.person h1 {
+    text-align: left;
+    margin: 0;
+    font-size: 2.5rem; /* Font size relative to viewport */
+    font-weight: bold;
+}
+
+.person h3 {
+    text-align: left;
+    margin: 0;
+    font-size: 1.2rem; /* Font size relative to viewport */
+    color: #555;
+}
+
+.title-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the text */
+    gap: 0.5rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color-light);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--text-color-dark);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: var(--bg-color-lighter);
+}
+
+/* Responsive layout tweaks */
+@media (min-width: 32rem) {
+    .person {
+        width: 32rem;
+    }
+
+    .person img {
+        width: 128px;
+    }
+
+    .person h1 {
+        font-size: 2rem;
+    }
+
+    .person h3 {
+        font-size: 1rem;
+    }
+
+    .person {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .title-sub {
+        align-items: flex-start;
+    }
+}
+
+
+/* SVG Icons */
+.svg-icon {
+    background-size: 80%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.kofi {
+    background-image: url("svg/icons/kofi_symbol.svg");
+    background-size: 80%;
+}
+
+.recroom {
+    background-image: url("svg/icons/recroom_symbol.svg");
+    background-size: 60%;
+}
+
+.github {
+    background-image: url("svg/icons/github-symbol.svg");
+}
+
+.discord {
+    background-image: url("svg/icons/discord_symbol.svg");
 }
